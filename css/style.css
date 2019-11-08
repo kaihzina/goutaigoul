@@ -1372,3 +1372,20 @@ pre .javascript .function {
   margin-right: 5px;
   display: inline-block;
 }
+a{
+  color:white;
+  position:relative;
+animation:myfirst 2s;
+-webkit-animation:myfirst 3s;
+}
+@keyframes myfirst
+{
+  from {color:black}
+  to {color:white;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+  from {color:black;}
+  to {color:white;}
+}
