@@ -368,6 +368,10 @@ body {
   color: #fff;
   font-weight: 300;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    position:relative;
+  animation:myfirst 2s;
+  -webkit-animation:myfirst 3s;
+  
 }
 #logo {
   font-size: 40px;
@@ -1372,12 +1376,7 @@ pre .javascript .function {
   margin-right: 5px;
   display: inline-block;
 }
-a{
-  color:white;
-  position:relative;
-animation:myfirst 2s;
--webkit-animation:myfirst 3s;
-}
+
 @keyframes myfirst
 {
   from {color:black}
