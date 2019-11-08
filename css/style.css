@@ -368,7 +368,13 @@ body {
   color: #fff;
   font-weight: 300;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
-    position:relative;
+}
+
+#logo {
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  position:relative;
   animation:myfirst 3s;
   -webkit-animation:myfirst 3s;
 }
@@ -382,11 +388,6 @@ body {
 {
   from {color:black;}
   to {color:white;}
-}
-#logo {
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 2px;
 }
 #subtitle {
   font-size: 16px;
