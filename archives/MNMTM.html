@@ -74,6 +74,38 @@
                             <video width="890" height="500" controls>
                                 <source src="/goutaigoul/mp.mp4" type="video/mp4">
                             </video>
+                            
+                            
+                            
+                            
+                            <div id="ageframediv" style="width: 980px; height: 540px;">
+                  <span id="ipchk_getplay" hidden="hidden" style="float: left;color: #F00;margin: 5px;font-size: 1.1em;"></span>
+
+                  <iframe id="age_playfram" src="./未来的未来 全集 [1080p][CHS] -在线观看&amp;动漫下载 - AGE动漫_files/saved_resource.html" height="100%" width="100%" scrolling="no" allowfullscreen="" frameborder="0"></iframe>
+                  <div id="testvideo_div" hidden="hidden"></div>
+
+                  <!-- -->
+                  <div id="cpraid_on" style="display:none;"></div>
+                  <div id="cpraid" style="display:none;text-align:center;width:100%;height:100%;background-color:#000;">
+                    <div style="display:inline-block;font-size:20px;margin-top:25%;color:#888;">非常抱歉，由于视频版权原因，暂不提供PC端播放，请<a href="https://www.agefans.app/" target="_blank" style="color:#D00;">下载APP</a>进行观看。</div>
+                  </div>
+                  <script>
+                    if($('#cpraid_on').text() == '1'){
+                      var username = __getCookie_v3('username');
+                      if(username != 'admin'){
+                        if(!username){
+                          $('#age_playfram').css('display', 'none');
+                          $('#cpraid').css('display', 'block');
+                        }
+                      }
+                    }
+                  </script>
+
+                <a class="fullscn" style="display: none;">网页全屏</a></div>
+                
+                            
+                            
+                            
                         </div>
                         <nav id="article-nav">
                             <a href="/goutaigoul/2019/11/06/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
